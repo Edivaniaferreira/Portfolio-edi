@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #1d1a56;
+  color: #fff;
+}
+
+header {
+  padding: 2rem;
+  background-color: #1d1a56;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  color: white;
+}
+
+.portfolio-title {
+  font-size: 4rem;
+  color: #d4ff00;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.tagline {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  color: #fff;
+}
+
+.intro {
+  background-color: #d4ff00;
+  color: #1d1a56;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+
+.intro .text {
+  flex: 1 1 300px;
+  margin-right: 2rem;
+}
+
+.intro h2 {
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+.skills {
+  flex: 1 1 200px;
+}
+
+.skills h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills li {
+  margin: 0.5rem 0;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+  border: 2px solid #1d1a56;
+}
+
+.filled {
+  background-color: #1d1a56;
+}
+
+.half {
+  background: linear-gradient(90deg, #1d1a56 50%, transparent 50%);
+}
+
+.empty {
+  background-color: transparent;
+}
+
+.projects {
+  padding: 2rem;
+  background-color: #fff;
+  color: #1d1a56;
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.project-item {
+  background: #f0f0f0;
+  border-radius: 10px;
+  padding: 1rem;
+  width: calc(33.333% - 2rem);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.project-item img {
+  max-width: 100%;
+  border-radius: 8px;
+}
